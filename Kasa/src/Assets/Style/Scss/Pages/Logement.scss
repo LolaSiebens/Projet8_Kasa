@@ -1,0 +1,13 @@
+.Logement {
+    padding: 40px 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+.Logement .collapses {
+    display: flex;
+    justify-content: center;
+    gap: 76px;
+}

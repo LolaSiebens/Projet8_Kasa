@@ -1,22 +1,16 @@
-//import logo from '@/logo.svg';
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import PublicRouter from "@/Pages/Public/PublicRoute";
 
+const App = () => {
 
-import PublicRoute from '@/Pages/Public/PublicRoute.js';
-
-
-function App() {
   return (
     <div className="App">
-
       <BrowserRouter>
         <Routes>
-          <Route path="/*" element={<PublicRoute />} />
+          <Route path="/*" element={<PublicRouter />} />
         </Routes>
       </BrowserRouter>
-
-
     </div>
   );
 }

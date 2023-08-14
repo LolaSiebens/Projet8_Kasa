@@ -1,18 +1,26 @@
 header {
-    border-bottom: solid 1px grey;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 100px;
+    align-items: center;
 }
 
-ul {
-    list-style: none;
-    padding: 0px;
+.Logo {
+    width: 210px;
+    height: 68px;
 }
 
-ul li {
-    display: inline-block;
-    margin-right: 20px;
-}
+.navbar {
+    font-size: 24px;
+    font-weight: 500;
+    display: flex;
+    gap: 57px;
 
-a {
-    text-decoration: none;
-    color: black;
+    & a {
+        border: solid 3px transparent;
+    }
+
+    & a:hover {
+        border-bottom: solid 3px #ff6060;
+    }
 }
