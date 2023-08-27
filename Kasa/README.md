@@ -1,14 +1,14 @@
-# Getting Started with Create React App
+# Getting Started with Create React App and CRACO
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and uses [CRACO](https://github.com/gsoft-inc/craco) for custom configuration.
 
 ## Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+### `npm starto`
 
-Runs the app in the development mode.\
+Runs the app in the development mode using CRACO's configuration.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
