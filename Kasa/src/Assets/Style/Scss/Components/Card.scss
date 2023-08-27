@@ -33,3 +33,13 @@
         z-index: 1;
     }
 }
+
+@media (max-width: 768px) {
+    .card {
+        width: 100%;
+
+        &-title {
+            text-align: left;
+        }
+    }
+}

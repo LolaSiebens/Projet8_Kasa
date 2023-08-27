@@ -13,7 +13,7 @@ function Summary({ card }) {
                 <p>{card.location}</p>
                 <Tags card={card} />
             </div>
-            <div>
+            <div className="responsive">
                 <div className="host">
                     <p>{card.host.name}</p>
                     <img src={card.host.picture} alt={card.host.name} />

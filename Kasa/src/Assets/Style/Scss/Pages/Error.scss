@@ -27,3 +27,20 @@
         border-bottom: solid 2px #ff6060;
     }
 }
+
+@media (max-width: 768px) {
+    .error-page {
+        & h1 {
+            font-size: 96px;
+        }
+
+        & h2 {
+            font-size: 18px;
+            margin-top: 5px;
+        }
+
+        & a {
+            font-size: 14px;
+        }
+    }
+}

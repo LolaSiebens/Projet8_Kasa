@@ -4,6 +4,10 @@
     flex-direction: column;
     gap: 31px;
     margin-bottom: 50px;
+
+    .banner-image {
+        height: 226px;
+    }
 }
 
 .about .collapses {
@@ -11,5 +15,19 @@
     display: flex;
     flex-direction: column;
     gap: 31px;
+    margin-top: 20px;
+}
 
+@media (max-width: 768px) {
+    .about {
+        padding: 0px 50px;
+
+        .collapses {
+            padding: 0px;
+        }
+
+        .banner-image {
+            height: 300px;
+        }
+    }
 }

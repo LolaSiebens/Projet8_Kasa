@@ -17,5 +17,22 @@
         grid-column: 1;
         margin: auto;
         color: white;
+        font-size: 48px;
+        font-weight: 500;
+    }
+}
+
+@media (max-width: 768px) {
+    .banner {
+        &-image {
+            height: 111px;
+        }
+
+        &-text {
+            font-size: 24px;
+            font-weight: 500;
+            text-align: left;
+            margin-left: 15px;
+        }
     }
 }

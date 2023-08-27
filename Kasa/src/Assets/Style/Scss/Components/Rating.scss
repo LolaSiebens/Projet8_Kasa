@@ -1,3 +1,13 @@
 .rating {
     text-align: end;
+    gap: 10px;
+    display: flex;
+}
+
+@media (max-width: 768px) {
+    .rating {
+        order: -1;
+        margin-top: 10px;
+        height: 18px;
+    }
 }

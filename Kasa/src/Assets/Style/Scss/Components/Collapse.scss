@@ -23,8 +23,6 @@
         padding: 30px 20px 25px 20px;
         background-color: #f6f6f6;
         border-radius: 5px;
-
-
     }
 }
 
@@ -46,9 +44,34 @@
 .vector-up {
     transform: rotate(0deg);
     transition: all ease-in-out 0.4s;
+    width: 32px;
 }
 
 .vector-down {
     transform: rotate(-180deg);
     transition: all ease-in-out 0.4s;
+    width: 32px;
+}
+
+@media (max-width: 768px) {
+    .collapse {
+        &-title {
+            & h3 {
+                font-size: 13px;
+                font-weight: 500;
+            }
+        }
+
+        &-text {
+            font-size: 12px;
+        }
+    }
+
+    .vector-up {
+        width: 25px;
+    }
+
+    .vector-down {
+        width: 25px;
+    }
 }

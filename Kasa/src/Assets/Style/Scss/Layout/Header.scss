@@ -3,6 +3,7 @@ header {
     justify-content: space-between;
     padding: 40px 100px;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .Logo {
@@ -22,5 +23,31 @@ header {
 
     & a:hover {
         border-bottom: solid 3px #ff6060;
+    }
+}
+
+/*Media queries*/
+
+@media (max-width: 768px) {
+    header {
+        padding: 30px 26px;
+    }
+
+    .navbar {
+        text-transform: uppercase;
+        font-size: 17px;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 500px) {
+    .navbar {
+        font-size: 12px;
+        gap: 16px;
+    }
+
+    .Logo {
+        width: 160px;
+        height: 50px;
     }
 }
